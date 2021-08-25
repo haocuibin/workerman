@@ -1,5 +1,5 @@
 {
-    "name": "workerman/Config",
+    "name": "workerman/config",
     "description": "the new thinkphp framework",
     "type": "project",
     "keywords": [
