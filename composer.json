@@ -1,5 +1,5 @@
 {
-    "name": "haocuibin/workerman/Config",
+    "name": "workerman/Config",
     "description": "the new thinkphp framework",
     "type": "project",
     "keywords": [
@@ -15,6 +15,13 @@
             "email": "951252220@qq.com"
         }
     ],
+    "require": {
+        "php": ">=5.4.0",
+        "workerman/workerman": "*",
+        "workerman/gateway-worker": "*",
+        "workerman/mysql": "*",
+        "workerman/globaldata": "*"
+    },
     "extra": {
         "think-path": "thinkphp"
     },
