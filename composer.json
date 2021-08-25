@@ -1,6 +1,7 @@
 {
     "name": "haocuibin/workerman",
     "description": "workerman framework",
+    "type": "project",
     "keywords": [
         "framework",
         "thinkphp",
