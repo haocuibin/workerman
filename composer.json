@@ -1,14 +1,14 @@
 {
     "name": "haocuibin/workerman",
-    "description": "workerman framework",
+    "description": "the new thinkphp framework",
     "type": "project",
     "keywords": [
         "framework",
         "thinkphp",
-        "ORM",
-        "workerman"
+        "ORM"
     ],
-    "license" : "Apache-2.0",
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "cuibin",
