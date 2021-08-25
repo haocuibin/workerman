@@ -12,7 +12,7 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 // 自动加载类
-require_once __DIR__ . '/../../../autoload.php';
+require_once __DIR__ . '/../../../../autoload.php';
 require_once __DIR__.'/../Db.php';
 use \Workerman\Worker;
 use \GatewayWorker\Gateway;

@@ -5,8 +5,8 @@ namespace Config;
  * mysql配置
  * @author shmilylbelva
  */
-$config   = require_once __DIR__.'/../../../application/config.php';
-$database = require_once __DIR__.'/../../../application/database.php';
+$config   = require_once __DIR__.'/../../../../application/config.php';
+$database = require_once __DIR__.'/../../../../application/database.php';
 
 define('DB_HOST',$database['hostname']); //数据库地址
 define('DB_USER',$database['username']); //用户名
