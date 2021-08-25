@@ -1,14 +1,12 @@
 {
     "name": "haocuibin/workerman",
-    "description": "the new thinkphp framework",
-    "type": "project",
+    "description": "workerman framework",
     "keywords": [
         "framework",
         "thinkphp",
-        "ORM"
+        "ORM",
+        "workerman"
     ],
-    "homepage": "http://thinkphp.cn/",
-    "license": "Apache-2.0",
     "authors": [
         {
             "name": "cuibin",
@@ -22,10 +20,9 @@
         "workerman/mysql": "*",
         "workerman/globaldata": "*"
     },
-    "extra": {
-        "think-path": "thinkphp"
-    },
-    "config": {
-        "preferred-install": "dist"
+    "autoload": {
+        "psr-4": {
+            "haocuibin\\workerman\\": "Config/"
+        }
     }
 }
