@@ -22,6 +22,12 @@
         "workerman/mysql": "*",
         "workerman/globaldata": "*"
     },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
     "autoload": {
         "psr-4": {
             "haocuibin\\workerman\\": "Config/"
